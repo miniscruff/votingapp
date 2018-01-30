@@ -12,7 +12,7 @@ plugins:
         "**test_*.py"
   pep8:
     enabled: true
-  duplciation:
+  duplication:
     enabled: true
     config:
       languages:
