@@ -17,4 +17,6 @@ plugins:
     config:
       languages:
         python:
-          python_version: 3
+          python_version: 3.6
+
+version: "2"
