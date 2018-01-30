@@ -1,14 +1,14 @@
-exclude_patterns:
+exclude_paths:
   - "venv"
   - "virtualenv"
   - "**/migrations/*"
   - "*.pyc"
 
-plugins:
-  - sonar-python:
-    - enabled: true
-    - config:
-      - test_patterns:
-        - "**test_*.py"
-  - pep8:
-    - enabled: true
+engines:
+  sonar-python:
+    enabled: true
+    config:
+      test_patterns:
+        "**test_*.py"
+  pep8:
+    enabled: true
