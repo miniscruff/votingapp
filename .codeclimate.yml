@@ -1,0 +1,14 @@
+exclude_patterns:
+  - "venv"
+  - "virtualenv"
+  - "**/migrations/*"
+  - "*.pyc"
+
+plugins:
+  - sonar-python:
+    - enabled: true
+    - config:
+      - test_patterns:
+        - "**test_*.py"
+  - pep8:
+    - enabled: true
