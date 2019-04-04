@@ -1,6 +1,6 @@
 dj-database-url==0.5.0
 Django==2.1.7
-psycopg2==2.7.7
+psycopg2==2.8
 djangorestframework==3.9.1
 pygal==2.4.0
 pytz==2018.9
